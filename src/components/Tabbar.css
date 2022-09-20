@@ -1,0 +1,3 @@
+footer {width: 100%;height: 50px;text-align: center;background-color: white;display: flex;position: fixed;bottom: 0;}
+footer > div {flex: 1;}
+.active {color:red;}
