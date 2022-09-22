@@ -29,7 +29,7 @@ export default class Film extends Component {
               <div key={item.filmId} onClick={()=>{
                 this.props.history.push(`/detail/${item.filmId}`)
               }}>
-                <p>{item.name}</p>
+                <p style={{fontSize:'1rem/2'}}>{item.name}</p>
               </div>
             )
           })
